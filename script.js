@@ -201,7 +201,7 @@ const productInfo = document.querySelectorAll('.main__product-info'),
 
 
 for (let i = 0; i < productInfo.length; i++) {
-    productInfo[i].addEventListener('click', function() {
+    productInfo[i].addEventListener('dblclick', function() {
         let a = mainProductImg[i].getAttribute('src')
         viewImg.src = a
         view.classList.add('active')
